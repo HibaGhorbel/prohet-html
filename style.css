@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.b{
+	display: flex;
+	align-items: center;
+	padding:20px;
+	background-color: black;
+	padding-bottom: 3px;
+	color: white;
+
+}
+.logo img{
+	width: 145px;
+
+}
+nav{
+	text-align:right ;
+	text-transform: uppercase;
+	padding-bottom: 18px;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+	float:right;
+	position: absolute;
+	right: 50px;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 1000px;
+}
+.c{
+	max-width: 1700px;
+	margin:40px auto ;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+.r{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+
+}
+.o{
+	flex-basis: 50%;
+	min-width: 300px;
+	font-family: sans-serif;
+}
+.o img{
+	width: 100%;
+	padding: 30px 0;
+}
+.o h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+	
+
+}
+p{
+	color: black;
+	text-align:justify-all;
+	text-justify inter-word;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)), URL(images1/image1.jpg);
+	background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+footer{
+	flex-shrink: 0;
+	padding-left: 160px;
+	width: 50px;
+	color: #333;
+	padding-bottom: 55px;
+}
+.contenu-footer{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: flex-start;
+	font-size: 20px;
+	padding: 50px 0 100px;
+}
+img{
+	width: 20px;
+}
+.bloc{
+	width: 25%;
+	margin: 0 30px;
+}
+/* contact*/
+
+
+.footer-horaires h3,
+.footer-médias h3{
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+
+/* services*/
+
+
+.liste-horaires,
+.liste-médias{
+	list-style-type: none;
+}
+
+
+
+/*médias*/
+.liste-médias{
+	position: relative;
+	right: 35px;
+}
+.liste-médias img{
+	width: 40px;
+	margin: 10px 10px;
+}
+.liste-médias a{
+	text-decoration: none;
+	color: #333;
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+}
